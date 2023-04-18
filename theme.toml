@@ -1,0 +1,12 @@
+name = "Neo Athamé"
+description = "The Unmagical Zola Theme"
+license = "MIT"
+homepage = "https://github.com/infinitivewitch/neoathame"
+min_version = "0.17.2"
+demo = "https://infinitivewitch.github.io/neoathame"
+
+[extra]
+
+[author]
+name = "Infinitive Witch"
+homepage = "https://infinitivewitch.github.io"
