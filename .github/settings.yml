@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  description: The Unmagical Zola Theme
+  homepage: https://infinitivewitch.github.io/neoathame
+  name: neoathame
+  topics: zola, zola-theme, static-site, nix, rust
