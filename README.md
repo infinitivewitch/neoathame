@@ -6,6 +6,8 @@
 [![Release](https://github.com/infinitivewitch/neoathame/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/infinitivewitch/neoathame/actions/workflows/release.yml)
 [![WakaTime](https://wakatime.com/badge/github/infinitivewitch/neoathame.svg)](https://wakatime.com/badge/github/infinitivewitch/neoathame)
 
+![Screenshot](./screenshot.png)
+
 ## License
 
 This work is licensed under [MIT](./LICENSE).

@@ -1,0 +1,24 @@
+{% import "macros.html" as macros -%} {% extends "base.html" %} {% block content
+%}
+<section id="homepage" class="container">
+  <div class="container">
+    <h1 class="name">{{ config.extra.social.name }}</h1>
+    <img class="avatar" src="{{ config.extra.social.avatar }}" />
+    <p class="shortbio">{{ config.extra.social.shortbio }}</p>
+  </div>
+  <div id="links">
+    {{ macros::social_links( url=config.extra.social.links.1.url,
+    service=config.extra.social.links.1.service,
+    username=config.extra.social.links.1.username ) }} {{ macros::social_links(
+    url=config.extra.social.links.2.url,
+    service=config.extra.social.links.2.service,
+    username=config.extra.social.links.2.username ) }} {{ macros::social_links(
+    url=config.extra.social.links.3.url,
+    service=config.extra.social.links.3.service,
+    username=config.extra.social.links.3.username ) }} {{ macros::social_links(
+    url=config.extra.social.links.4.url,
+    service=config.extra.social.links.4.service,
+    username=config.extra.social.links.4.username ) }}
+  </div>
+</section>
+{% endblock content %}

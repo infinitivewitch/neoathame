@@ -1,0 +1,8 @@
+@mixin font-settings($family, $weight, $path) {
+  @font-face {
+    font-family: $family;
+    font-style: normal;
+    font-weight: $weight;
+    src: url("#{$sora-font}/#{$path}") format("truetype");
+  }
+}

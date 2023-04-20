@@ -1,0 +1,21 @@
+{% macro meta() %}
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta
+  name="theme-color"
+  content="#000000"
+  media="(prefers-color-scheme: dark)"
+/>
+<meta
+  name="theme-color"
+  content="#ffffff"
+  media="(prefers-color-scheme: light)"
+/>
+{% endmacro meta %} {% macro social_links(url, service, username) %}
+<div id="wrapper" class="container">
+  <a class="link" target="_blank" href="{{ url }}">
+    <img src="./assets/icons/{{ service }}.svg" alt="{{ service }}" />
+  </a>
+  <div class="subtitle">{{ username }}</div>
+</div>
+{% endmacro meta %}

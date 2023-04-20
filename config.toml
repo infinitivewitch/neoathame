@@ -1,8 +1,34 @@
 base_url = "https://infinitivewitch.github.io/neoathame"
 compile_sass = true
+generate_feed = true
 build_search_index = true
+default_language = "en"
+
 
 [markdown]
 highlight_code = true
 
-[extra]
+[extra.social]
+name = "Neo Athamé"
+avatar = "assets/avatar.png"
+shortbio = "The Unmagical Zola Theme"
+
+[extra.social.links.1]
+service = "html5"
+username = "HTML 5"
+url = "#"
+
+[extra.social.links.2]
+service = "javascript"
+username = "Javascript"
+url = "#"
+
+[extra.social.links.3]
+service = "sass"
+username = "Sass"
+url = "#"
+
+[extra.social.links.4]
+service = "css3"
+username = "CSS 3"
+url = "#"

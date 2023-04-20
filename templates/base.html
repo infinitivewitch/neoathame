@@ -1,0 +1,15 @@
+{% import "macros.html" as macros -%}
+
+<!DOCTYPE html>
+
+<html lang="{{lang}}">
+  <head>
+    {{ macros::meta() }}
+    <title>{{ config.extra.social.name }} | {{ section.title }}</title>
+    <link href="{{ get_url(path='style.css') }}" rel="stylesheet" />
+  </head>
+
+  <body id="root" class="container">
+    {% block content %}{% endblock %}
+  </body>
+</html>
