@@ -8,6 +8,12 @@
 
 ![Screenshot](./screenshot.png)
 
+## Acknowledgments
+
+- [**LavaDesu**](https://github.com/LavaDesu)
+  - https://github.com/LavaDesu/lavadesu.github.io
+    - for the **general _homepage_ layout**
+
 ## License
 
 This work is licensed under [MIT](./LICENSE).
