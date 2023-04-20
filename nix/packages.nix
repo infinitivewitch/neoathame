@@ -2,7 +2,7 @@
   perSystem = {pkgs, ...}: {
     packages.default = pkgs.stdenv.mkDerivation rec {
       pname = "neoathame";
-      version = "0.0.0";
+      version = "1.0.0";
       src = ../.;
       nativeBuildInputs = [pkgs.zola];
       buildPhase = "zola build";
