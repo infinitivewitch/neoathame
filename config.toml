@@ -4,7 +4,6 @@ generate_feed = true
 build_search_index = true
 default_language = "en"
 
-
 [markdown]
 highlight_code = true
 

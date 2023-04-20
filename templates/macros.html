@@ -11,7 +11,16 @@
   content="#ffffff"
   media="(prefers-color-scheme: light)"
 />
-{% endmacro meta %} {% macro social_links(url, service, username) %}
+{% endmacro meta %}
+{% macro footer() %}
+<footer class="container">
+  <p>
+    <a href="https://github.com/infinitivewitch/neoathame">Neo Athamé</a> <i>Zola Theme</i> by
+    <a href="https://github.com/infinitivewitch">Infinitive Witch</a>
+  </p>
+</footer>
+{% endmacro footer %}
+{% macro social_links(url, service, username) %}
 <div id="wrapper" class="container">
   <a class="link" target="_blank" href="{{ url }}">
     <img src="./assets/icons/{{ service }}.svg" alt="{{ service }}" />
